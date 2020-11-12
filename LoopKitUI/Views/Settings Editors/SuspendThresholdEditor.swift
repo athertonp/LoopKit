@@ -235,7 +235,7 @@ struct SuspendThresholdGuardrailWarning: View {
         case .minimum, .belowRecommended:
             return Text(LocalizedString("Low Glucose Safety Limit", comment: "Title text for the low glucose safety limit warning"))
         case .aboveRecommended, .maximum:
-            return Text(LocalizeString("High Glucose Safety Limit", comment: "Title text for the high glucose safety limit warning"))
+            return Text(LocalizedString("High Glucose Safety Limit", comment: "Title text for the high glucose safety limit warning"))
         }
     }
 }
